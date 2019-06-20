@@ -1,0 +1,24 @@
+@import "herosection";
+@import "aboutme";
+@import "services";
+@import "Gallery";
+@import "counter";
+@import "skills";
+@import "Footer";
+@import "Footer2";
+*{
+  margin: 0;
+  padding: 0;
+} 
+h1, h2, h3, h4, h5 ,p{
+  font-family: 'Poppins', sans-serif;
+}
+
+.para-color{
+  color: rgb(185,185,185);
+}
+.services-h{
+  background: -webkit-linear-gradient(#fc5c7d,#6a82fb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+      }

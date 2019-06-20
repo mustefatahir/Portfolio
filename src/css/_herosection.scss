@@ -1,0 +1,30 @@
+.hero-section{
+    height: 95vh;
+    background-image: linear-gradient(to left,rgba(0,0,0,0.800), rgba(41, 29, 52, 0.6)),url(../images/TopViewLaptopBackdrop.jpg);
+    // background-image: url("../images/TopViewLaptopBackdrop.jpg");
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    .icons{
+        font-size: 1.15rem;
+        color: white;
+        transition: all 0.2s;
+        padding: 20px;
+        opacity: 0.5;
+        &:hover{
+            opacity: 1;
+            transition: all 0.5s;
+        }
+    }
+}
+
+.hero-section .col-md-5 a{
+    text-decoration: none;
+  }
+.services-mustefa{
+    
+        background: -webkit-linear-gradient(left,#fc5c7d,#6a82fb);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+            }
