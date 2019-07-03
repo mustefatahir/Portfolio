@@ -25426,10 +25426,15 @@ function Header() {
         ),
         _react2.default.createElement(
           "a",
-          { href: "https://www.facebook.com/syedmustefatahir", target: "_blank", title: "Facebook" },
+          { href: "https://github.com/mustefatahir", target: "_blank", title: "GitHub" },
           "  ",
-          _react2.default.createElement("i", { "class": "icons fab fa-facebook-square" }),
-          " "
+          _react2.default.createElement("i", { "class": "icons fab fa-github" })
+        ),
+        _react2.default.createElement(
+          "a",
+          { href: "https://www.linkedin.com/in/mustefa-tahir-833614189/", target: "_blank", title: "GitHub" },
+          "  ",
+          _react2.default.createElement("i", { "class": "icons fab fa-linkedin" })
         ),
         _react2.default.createElement(
           "a",
@@ -25444,11 +25449,16 @@ function Header() {
           _react2.default.createElement("i", { "class": "icons fab fa-behance" }),
           " "
         ),
+        _react2.default.createElement("br", null),
+        _react2.default.createElement("br", null),
         _react2.default.createElement(
           "a",
-          { href: "https://github.com/mustefatahir", target: "_blank", title: "GitHub" },
-          "  ",
-          _react2.default.createElement("i", { "class": "icons fab fa-github" })
+          { href: "https://www.fiverr.com/mustefatahir_", target: "_blank", "class": "btn btn-1" },
+          _react2.default.createElement(
+            "h5",
+            { className: "hire-me-text services-h" },
+            "Hire Me"
+          )
         )
       )
     )
@@ -25546,7 +25556,7 @@ function About() {
         _react2.default.createElement(
           "p",
           { className: "para-color pt-3 pb-5 section2-heading ml-4" },
-          "I'm the Front-End Developer for Vvork Cloud Technologies, PK. I have serious passion for UI effects, animations and creating Web Pages that Stand out.",
+          "I'm a Freelance Front End Web Developer and I have serious passion for UI effects, animations and creating Web Pages that Stand out.",
           _react2.default.createElement("br", null),
           _react2.default.createElement("br", null),
           "Let's make something special."
@@ -25607,7 +25617,19 @@ function Services() {
                 _react2.default.createElement(
                     "p",
                     { className: "font-weight-light para-color" },
-                    "A front-end web developer is probably what most people think of as a \u201Cweb developer\u201D. A front-end web developer is responsible for implementing visual elements that users see & interact with."
+                    "I develop complex Websites and Web Applications that will meet your expectations in every detail. As a web developer i know how to create fast and yet powerful websites that will serve your business for years to come."
+                ),
+                _react2.default.createElement("br", null),
+                _react2.default.createElement("br", null),
+                _react2.default.createElement(
+                    "p",
+                    { className: "services-h text-white" },
+                    "Reliable Apps which are built to last for years"
+                ),
+                _react2.default.createElement(
+                    "p",
+                    { className: "services-h text-white" },
+                    "Professional and Stunning Websites"
                 )
             ),
             _react2.default.createElement(
@@ -25622,7 +25644,19 @@ function Services() {
                 _react2.default.createElement(
                     "p",
                     { className: "font-weight-light para-color" },
-                    "A mobile app developer is able to create software for phones and tablets, and is familiar with the newest technologies in the mobile world."
+                    "User-friendly and engaging mobile apps for iOS and Android devices. We develop mobile applications for both brave startups and established enterprises that have brilliant ideas of how to reach new customers by going mobile."
+                ),
+                _react2.default.createElement("br", null),
+                _react2.default.createElement("br", null),
+                _react2.default.createElement(
+                    "p",
+                    { className: "services-h text-white" },
+                    "Versatile Apps with as many features as you want"
+                ),
+                _react2.default.createElement(
+                    "p",
+                    { className: "services-h text-white" },
+                    "Friendly User-interface for any user"
                 )
             ),
             _react2.default.createElement(
@@ -25637,7 +25671,19 @@ function Services() {
                 _react2.default.createElement(
                     "p",
                     { className: "font-weight-light para-color" },
-                    "Graphic designers create visual concepts, by hand or using computer software, to communicate ideas that inspire, inform, or captivate consumers & I will help you create a custom-tailored Design"
+                    "Erasing boundaries between user interface and user experience. As an application development company, we design beautiful and straightforward apps that keep users\u2019 attention for a long time."
+                ),
+                _react2.default.createElement("br", null),
+                _react2.default.createElement("br", null),
+                _react2.default.createElement(
+                    "p",
+                    { className: "services-h text-white pt-3" },
+                    "Full Cycle Developement from specifications to the post-release maintenance"
+                ),
+                _react2.default.createElement(
+                    "p",
+                    { className: "services-h text-white" },
+                    " Deep Research of the target audience and key competitors"
                 )
             )
         )
