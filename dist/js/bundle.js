@@ -25556,10 +25556,11 @@ function About() {
         _react2.default.createElement(
           "p",
           { className: "para-color pt-3 pb-5 section2-heading ml-4" },
-          "I'm a Freelance Front End Web Developer and I have serious passion for UI effects, animations and creating Web Pages that Stand out.",
+          "Hi. My name is Mustefa Tahir and I'm a talented web developer currently working as front-end developer for Vvork Cloud Technologies.",
           _react2.default.createElement("br", null),
+          "I work everyday to create stunning, minimal websites. I love geometric forms which inspire a sense of balance and a content-oriented design to serve informations quickly and easily.",
           _react2.default.createElement("br", null),
-          "Let's make something special."
+          "To work hard and profitably I absolutely need some caffeine injection and a good pair of headphones."
         )
       )
     )
@@ -25709,7 +25710,6 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function Gallery() {
-
   return _react2.default.createElement(
     "div",
     { className: "container-fluid gallery-section" },
@@ -25727,59 +25727,174 @@ function Gallery() {
       )
     ),
     _react2.default.createElement(
-      "div",
-      { className: "row justify-content-evenly justify-content-center" },
+      "section",
+      { "class": "gallery-block compact-gallery" },
       _react2.default.createElement(
         "div",
-        { className: "col-md-5" },
-        _react2.default.createElement("img", { src: "./images/project8.png", className: "gallery-img pt-4", alt: "", srcset: "" })
-      ),
-      _react2.default.createElement(
-        "div",
-        { className: "col-md-5" },
-        _react2.default.createElement("img", { src: "./images/project7.png", className: "gallery-img pt-4", alt: "", srcset: "" })
-      )
-    ),
-    _react2.default.createElement(
-      "div",
-      { className: "row justify-content-evenly justify-content-center" },
-      _react2.default.createElement(
-        "div",
-        { className: "col-md-5" },
-        _react2.default.createElement("img", { src: "./images/project6.png", className: "gallery-img pt-4", alt: "", srcset: "" })
-      ),
-      _react2.default.createElement(
-        "div",
-        { className: "col-md-5" },
-        _react2.default.createElement("img", { src: "./images/project5.png", className: "gallery-img pt-4", alt: "", srcset: "" })
-      )
-    ),
-    _react2.default.createElement(
-      "div",
-      { className: "row justify-content-evenly justify-content-center" },
-      _react2.default.createElement(
-        "div",
-        { className: "col-md-5" },
-        _react2.default.createElement("img", { src: "./images/project4.png", className: "gallery-img pt-4", alt: "", srcset: "" })
-      ),
-      _react2.default.createElement(
-        "div",
-        { className: "col-md-5" },
-        _react2.default.createElement("img", { src: "./images/project3.png", className: "gallery-img pt-4", alt: "", srcset: "" })
-      )
-    ),
-    _react2.default.createElement(
-      "div",
-      { className: "row pb-5 justify-content-evenly justify-content-center" },
-      _react2.default.createElement(
-        "div",
-        { className: "col-md-5" },
-        _react2.default.createElement("img", { src: "./images/project2.png", className: "gallery-img pt-4", alt: "", srcset: "" })
-      ),
-      _react2.default.createElement(
-        "div",
-        { className: "col-md-5" },
-        _react2.default.createElement("img", { src: "./images/project1.png", className: "gallery-img pt-4", alt: "", srcset: "" })
+        { "class": "row no-gutters" },
+        _react2.default.createElement(
+          "div",
+          { "class": "col-md-6 col-lg-4 item zoom-on-hover" },
+          _react2.default.createElement(
+            "a",
+            { "class": "lightbox", target: "_blank", href: "./images/project8.png" },
+            _react2.default.createElement("img", { "class": "img-fluid image", img: true, src: "./images/project8.png" }),
+            _react2.default.createElement(
+              "span",
+              { "class": "description" },
+              _react2.default.createElement(
+                "span",
+                { "class": "description-heading services-h" },
+                "Vvork Cloud Technologies"
+              ),
+              _react2.default.createElement(
+                "span",
+                { "class": "description-body" },
+                "Web Application for Vvork Cloud Technologies"
+              ),
+              _react2.default.createElement(
+                "span",
+                { "class": "description-body" },
+                "Skills Used: React, HTML/CSS, Bootstrap"
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          "div",
+          { "class": "col-md-6 col-lg-4 item zoom-on-hover" },
+          _react2.default.createElement(
+            "a",
+            { "class": "lightbox", target: "_blank", href: "./images/project6.png" },
+            _react2.default.createElement("img", { "class": "img-fluid image", img: true, src: "./images/project6.png" }),
+            _react2.default.createElement(
+              "span",
+              { "class": "description" },
+              _react2.default.createElement(
+                "span",
+                { "class": "description-heading services-h" },
+                "Classimax Marketplace"
+              ),
+              _react2.default.createElement(
+                "span",
+                { "class": "description-body" },
+                "E-Commerce"
+              ),
+              _react2.default.createElement(
+                "span",
+                { "class": "description-body" },
+                "Skills Used: React, HTML/CSS, Bootstrap"
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          "div",
+          { "class": "col-md-6 col-lg-4 item zoom-on-hover" },
+          _react2.default.createElement(
+            "a",
+            { "class": "lightbox", target: "_blank", href: "./images/project5.png" },
+            _react2.default.createElement("img", { "class": "img-fluid image", img: true, src: "./images/project5.png" }),
+            _react2.default.createElement(
+              "span",
+              { "class": "description" },
+              _react2.default.createElement(
+                "span",
+                { "class": "description-heading services-h" },
+                "Fables Consultations"
+              ),
+              _react2.default.createElement(
+                "span",
+                { "class": "description-body" },
+                "Static Website for Fables Consultations"
+              ),
+              _react2.default.createElement(
+                "span",
+                { "class": "description-body" },
+                "Skills Used:HTML/CSS, Bootstrap, JavaScript"
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          "div",
+          { "class": "col-md-6 col-lg-4 item zoom-on-hover" },
+          _react2.default.createElement(
+            "a",
+            { "class": "lightbox", target: "_blank", href: "./images/project4.png" },
+            _react2.default.createElement("img", { "class": "img-fluid image", img: true, src: "./images/project4.png" }),
+            _react2.default.createElement(
+              "span",
+              { "class": "description" },
+              _react2.default.createElement(
+                "span",
+                { "class": "description-heading services-h" },
+                "Sample Template"
+              ),
+              _react2.default.createElement(
+                "span",
+                { "class": "description-body" },
+                "Static Website Design"
+              ),
+              _react2.default.createElement(
+                "span",
+                { "class": "description-body" },
+                "Skills Used:HTML/CSS, Bootstrap, JavaScript"
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          "div",
+          { "class": "col-md-6 col-lg-4 item zoom-on-hover" },
+          _react2.default.createElement(
+            "a",
+            { "class": "lightbox", target: "_blank", href: "./images/project3.png" },
+            _react2.default.createElement("img", { "class": "img-fluid image", img: true, src: "./images/project3.png" }),
+            _react2.default.createElement(
+              "span",
+              { "class": "description" },
+              _react2.default.createElement(
+                "span",
+                { "class": "description-heading services-h" },
+                "Sample Theme Antonio"
+              ),
+              _react2.default.createElement(
+                "span",
+                { "class": "description-body" },
+                "Skills Used:HTML/CSS, Bootstrap, JavaScript"
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          "div",
+          { "class": "col-md-6 col-lg-4 item zoom-on-hover" },
+          _react2.default.createElement(
+            "a",
+            { "class": "lightbox", target: "_blank", href: "./images/project2.png" },
+            _react2.default.createElement("img", { "class": "img-fluid image", img: true, src: "./images/project2.png" }),
+            _react2.default.createElement(
+              "span",
+              { "class": "description" },
+              _react2.default.createElement(
+                "span",
+                { "class": "description-heading services-h" },
+                "The Coffee Bean"
+              ),
+              _react2.default.createElement(
+                "span",
+                { "class": "description-body" },
+                "Static Website Design"
+              ),
+              _react2.default.createElement(
+                "span",
+                { "class": "description-body" },
+                "Skills Used:HTML/CSS, CSS3 Annimations, Bootstrap, JavaScript."
+              )
+            )
+          )
+        )
       )
     )
   );

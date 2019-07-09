@@ -42,8 +42,13 @@ function About() {
           <h2 className="text-white pt-2 section2-heading">Based In Lahore, Pakistan.</h2>
           <i class="fas fa-quote-left display-4 services-h"></i>
 
-          <p className="para-color pt-3 pb-5 section2-heading ml-4">I'm a Freelance Front End Web Developer and I have serious passion for UI effects, animations and creating Web Pages that Stand out.
-<br></br><br></br>Let's make something special.</p>
+          <p className="para-color pt-3 pb-5 section2-heading ml-4">Hi.
+My name is Mustefa Tahir and I'm a talented web developer currently working as front-end developer for Vvork Cloud Technologies.
+<br></br>
+
+            I work everyday to create stunning, minimal websites. I love geometric forms which inspire a sense of balance and a content-oriented design to serve informations quickly and easily.
+            <br></br>
+            To work hard and profitably I absolutely need some caffeine injection and a good pair of headphones.</p>
 
 
 
